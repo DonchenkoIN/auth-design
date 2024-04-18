@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Error Validation</title>
+    <title>Login</title>
     <link href="/output.css" rel="stylesheet">
 </head>
 <body class="
@@ -28,58 +28,37 @@ bg-no-repeat bg-bottom bg-fixed
         text-white font-semibold shadow-lg hover:shadow-xl focus:shadow-xl
 hover:bg-green-700 focus:outline-none focus:ring-2
 focus:ring-green-500 focus:ring-offset-2
-transition duration-150 ease-in-out" href="#">Sign In</a>
+transition duration-150 ease-in-out" href="#">Sign Up</a>
     </div>
 
 </div>
 <div class="flex flex-col justify-center p-6 pb-12">
     <div class="mx-auto max-w-md">
-        <svg
-                class="h-12 text-green-600 mx-auto"
-                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+
+        <svg class="h-12 text-green-600 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9" />
         </svg>
 
-        <h2 class="mt-2 sm:mt-6 text-2xl sm:text-3xl font-bold text-gray-900">Create your accont</h2>
+
+        <h2 class="mt-2 sm:mt-6 text-2xl sm:text-3xl font-bold text-gray-900">Welcome back!</h2>
     </div>
     <div class="bg-white/60 backdrop-blur-xl mt-6 sm:mt-10 mx-auto p-6 sm:p-10 rounded-xl shadow-xl w-full max-w-md">
         <form action="#" autocomplete="off" class="space-y-6">
-            <div>
-                <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
-                <div class="relative rounded-md shadow-sm mt-1 inset-y-o flex items-center">
-                    <div class="absolute left-0 pl-3">
-                        <svg  class="h-5 w-5 text-gray-400"
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
-                        </svg>
 
-                    </div>
-                    <input type="text" id="name" name="name" required placeholder="John Doe"
-                    class="pl-10 border-gray-300 rounded-md focus:border-green-500 focus:ring-green-500
-                            text-sm caret-green-600 w-full"
-                    >
-                </div>
-            </div>
             <div>
                 <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
                 <div class="relative rounded-md shadow-sm mt-1 inset-y-o flex items-center">
                     <div class="absolute left-0 pl-3">
-                        <svg class="h-5 w-5 text-red-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                         </svg>
 
                     </div>
                     <input type="email" id="email" name="email" placeholder="join@doe"
-                           class="pl-10 border-gray-300 rounded-md focus:border-red-500 focus:ring-red-500
-                            text-sm caret-red-600 w-full text-red-600 pr-10 placeholder-red-300"
+                           class="pl-10 border-gray-300 rounded-md focus:border-green-500 focus:ring-green-500
+                            text-sm caret-green-600 w-full"
                     >
-                    <div class="absolute right-0 pr-3">
-                        <svg class="h-5 w-5 text-red-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                            <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12ZM12 8.25a.75.75 0 0 1 .75.75v3.75a.75.75 0 0 1-1.5 0V9a.75.75 0 0 1 .75-.75Zm0 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" clip-rule="evenodd" />
-                        </svg>
-                    </div>
                 </div>
-                <p class="mt-2 text-sm text-red-600">Your email must be valid email address</p>
             </div>
             <div>
                 <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
@@ -95,31 +74,23 @@ transition duration-150 ease-in-out" href="#">Sign In</a>
                     >
                 </div>
             </div>
-            <div>
-                <label for="password_confirmation" class="block text-sm font-medium text-gray-700">Confirm Password</label>
-                <div class="relative rounded-md shadow-sm mt-1 inset-y-o flex items-center">
-                    <div class="absolute left-0 pl-3">
-                        <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
-                        </svg>
-                    </div>
-                    <input type="password" id="password_confirmation" name="password_confirmation" minlength="8" placeholder="Password confirmation"
-                           class="pl-10 border-gray-300 rounded-md focus:border-green-500 focus:ring-green-500
-                            text-sm caret-green-600 w-full"
-                    >
+
+            <div class="flex justify-between items-center">
+                <div class="flex items-center gap-2">
+                    <input class="h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500" type="checkbox" id="remember" name="remember">
+                    <label class="text-sm text-gray-900" for="remember">Remember me</label>
                 </div>
+                <a href="#" class="font-medium text-sm text-green-600 hover:text-green-400">Forgot you password</a>
             </div>
             <div>
                 <a class="flex justify-center items-center rounded-md bg-green-600 py-2 px-4
                 text-white font-semibold shadow-lg hover:shadow-xl focus:shadow-xl
                 hover:bg-green-700 focus:outline-none focus:ring-2
                 focus:ring-green-500 focus:ring-offset-2
-                transition duration-150 ease-in-out" href="#">Sign Up</a>
+                transition duration-150 ease-in-out" href="#">Sign In</a>
             </div>
         </form>
-        <div class="flex justify-center items-center mt-6">
-            <a href="#" class="font-medium text-sm text-green-600 hover:text-green-400">Already have an account</a>
-        </div>
+
     </div>
 </div>
 
