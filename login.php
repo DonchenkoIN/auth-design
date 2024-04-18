@@ -13,8 +13,8 @@ bg-gray-50
 min-h-screen bg-[url('wave.svg')]
 bg-no-repeat bg-bottom bg-fixed
 ">
-<div class="flex justify-between items-center p-6">
-    <a href="#" class="flex items-center gap-2">
+<header class="flex justify-between items-center p-6">
+    <a href="index.php" class="flex items-center gap-2">
         <svg class="h-10 text-green-600"
              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
             <path fill-rule="evenodd"
@@ -31,8 +31,8 @@ focus:ring-green-500 focus:ring-offset-2
 transition duration-150 ease-in-out" href="#">Sign Up</a>
     </div>
 
-</div>
-<div class="flex flex-col justify-center p-6 pb-12">
+</header>
+<main class="flex flex-col justify-center p-6 pb-12">
     <div class="mx-auto max-w-md">
 
         <svg class="h-12 text-green-600 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -43,7 +43,15 @@ transition duration-150 ease-in-out" href="#">Sign Up</a>
         <h2 class="mt-2 sm:mt-6 text-2xl sm:text-3xl font-bold text-gray-900">Welcome back!</h2>
     </div>
     <div class="bg-white/60 backdrop-blur-xl mt-6 sm:mt-10 mx-auto p-6 sm:p-10 rounded-xl shadow-xl w-full max-w-md">
-        <form action="#" autocomplete="off" class="space-y-6">
+        <div class="rounded-md bg-red-50 border border-red-500 p-4 flex gap-3">
+            <svg class="w-5 h-5 text-red-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path fill-rule="evenodd" d="M9.401 3.003c1.155-2 4.043-2 5.197 0l7.355 12.748c1.154 2-.29 4.5-2.599 4.5H4.645c-2.309 0-3.752-2.5-2.598-4.5L9.4 3.003ZM12 8.25a.75.75 0 0 1 .75.75v3.75a.75.75 0 0 1-1.5 0V9a.75.75 0 0 1 .75-.75Zm0 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" clip-rule="evenodd" />
+            </svg>
+
+            <h3 class="text-sm font-medium text-red-800">These credentials do not match our records.</h3>
+
+        </div>
+        <form action="#" autocomplete="off" class="space-y-6 mt-6">
 
             <div>
                 <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
@@ -87,12 +95,12 @@ transition duration-150 ease-in-out" href="#">Sign Up</a>
                 text-white font-semibold shadow-lg hover:shadow-xl focus:shadow-xl
                 hover:bg-green-700 focus:outline-none focus:ring-2
                 focus:ring-green-500 focus:ring-offset-2
-                transition duration-150 ease-in-out" href="#">Sign In</a>
+                transition duration-150 ease-in-out" href="index.php">Sign In</a>
             </div>
         </form>
 
     </div>
-</div>
+</main>
 
 </body>
 </html>

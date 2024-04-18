@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Reset Password</title>
+    <title>Confirm Password</title>
     <link href="/output.css" rel="stylesheet">
 </head>
 <body class="
@@ -26,10 +26,7 @@ bg-no-repeat bg-bottom bg-fixed
     <div class="flex gap-4">
         <a class="rounded-md bg-gray-200 py-2 px-4 text-gray-900 font-semibold shadow-lg hover:shadow-xl focus:shadow-xl
 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2 transition duration-150 ease-in-out"
-           href="index.php">Sign In</a>
-        <a class="rounded-md bg-green-600 py-2 px-4 text-white font-semibold shadow-lg hover:shadow-xl focus:shadow-xl
-hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 transition duration-150 ease-in-out"
-           href="login.php">Sign Up</a>
+           href="#">Sign Out</a>
     </div>
 
 </header>
@@ -39,32 +36,15 @@ hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ri
         <svg class="h-12 text-green-600 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
              stroke-width="1.5" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z"/>
+                  d="M15.75 5.25a3 3 0 0 1 3 3m3 0a6 6 0 0 1-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1 1 21.75 8.25Z"/>
         </svg>
 
 
-        <h2 class="mt-2 sm:mt-6 text-2xl sm:text-3xl font-bold text-gray-900">Reset password?</h2>
+        <h2 class="mt-2 sm:mt-6 text-2xl sm:text-3xl font-bold text-gray-900">Confirm Password</h2>
     </div>
     <div class="bg-white/60 backdrop-blur-xl mt-6 sm:mt-10 mx-auto p-6 sm:p-10 rounded-xl shadow-xl w-full max-w-md">
         <form action="#" autocomplete="off" class="space-y-6">
 
-            <div>
-                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
-                <div class="relative rounded-md shadow-sm mt-1 inset-y-o flex items-center">
-                    <div class="absolute left-0 pl-3">
-                        <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none"
-                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"/>
-                        </svg>
-
-                    </div>
-                    <input type="email" id="email" name="email" placeholder="join@doe"
-                           class="pl-10 border-gray-300 rounded-md focus:border-green-500 focus:ring-green-500
-                            text-sm caret-green-600 w-full"
-                    >
-                </div>
-            </div>
             <div>
                 <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
                 <div class="relative rounded-md shadow-sm mt-1 inset-y-o flex items-center">
@@ -79,27 +59,13 @@ hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ri
                     >
                 </div>
             </div>
-            <div>
-                <label for="password_confirmation" class="block text-sm font-medium text-gray-700">Confirm Password</label>
-                <div class="relative rounded-md shadow-sm mt-1 inset-y-o flex items-center">
-                    <div class="absolute left-0 pl-3">
-                        <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
-                        </svg>
-                    </div>
-                    <input type="password" id="password_confirmation" name="password_confirmation" minlength="8" placeholder="Password confirmation"
-                           class="pl-10 border-gray-300 rounded-md focus:border-green-500 focus:ring-green-500
-                            text-sm caret-green-600 w-full"
-                    >
-                </div>
-            </div>
 
             <div>
                 <a class="flex justify-center items-center rounded-md bg-green-600 py-2 px-4
                 text-white font-semibold shadow-lg hover:shadow-xl focus:shadow-xl
                 hover:bg-green-700 focus:outline-none focus:ring-2
                 focus:ring-green-500 focus:ring-offset-2
-                transition duration-150 ease-in-out" href="#">Reset Password</a>
+                transition duration-150 ease-in-out" href="#">Confirm</a>
             </div>
         </form>
 

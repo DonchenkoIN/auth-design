@@ -13,8 +13,8 @@ bg-gray-50
 min-h-screen bg-[url('wave.svg')]
 bg-no-repeat bg-bottom bg-fixed
 ">
-<div class="flex justify-between items-center p-6">
-    <a href="#" class="flex items-center gap-2">
+<header class="flex justify-between items-center p-6">
+    <a href="index.php" class="flex items-center gap-2">
         <svg class="h-10 text-green-600"
              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
             <path fill-rule="evenodd"
@@ -28,11 +28,11 @@ bg-no-repeat bg-bottom bg-fixed
         text-white font-semibold shadow-lg hover:shadow-xl focus:shadow-xl
 hover:bg-green-700 focus:outline-none focus:ring-2
 focus:ring-green-500 focus:ring-offset-2
-transition duration-150 ease-in-out" href="#">Sign In</a>
+transition duration-150 ease-in-out" href="index.php">Sign In</a>
     </div>
 
-</div>
-<div class="flex flex-col justify-center p-6 pb-12">
+</header>
+<main class="flex flex-col justify-center p-6 pb-12">
     <div class="mx-auto max-w-md">
         <svg
                 class="h-12 text-green-600 mx-auto"
@@ -121,7 +121,7 @@ transition duration-150 ease-in-out" href="#">Sign In</a>
             <a href="#" class="font-medium text-sm text-green-600 hover:text-green-400">Already have an account</a>
         </div>
     </div>
-</div>
+</main>
 
 </body>
 </html>
