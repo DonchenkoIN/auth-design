@@ -2,10 +2,10 @@
 
 Дизайн для Авторизации и Регистрации
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
 ## Запуск
 
 npm install -D tailwindcss
 
 npx tailwindcss -i ./input.css -o ./output.css --watch
+
+php -S localhost:8000
