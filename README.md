@@ -8,6 +8,4 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 npm install -D tailwindcss
 
-npx tailwindcss init
-
 npx tailwindcss -i ./input.css -o ./output.css --watch
